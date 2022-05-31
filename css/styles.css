@@ -216,6 +216,10 @@ footer{
 
 
 @media screen and (max-width: 600px ){
+    .body__imagenRelleno2{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
    
     .bodyPadre{
         padding-top: 50px;
@@ -263,6 +267,10 @@ footer{
 
 
 @media screen and (max-width: 480px ){
+    .body__imagenRelleno2{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
    
     .bodyPadre{
         padding-top: 50px;
@@ -294,11 +302,18 @@ footer{
         padding-top: 130px;
 
     }
+    ol, ul {
+        padding-left: 0rem;
+    }
 }
 
 @media screen and (max-width:425px){
+    .body__imagenRelleno2{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
     .bodyPadre{
-        padding-top: 115px;
+        padding-top: 50px;
         padding-bottom: 20px;
     }
     .bodyPadre2{
@@ -314,7 +329,6 @@ footer{
         width: 250px;
     
     }
-
     header .logoPrincipal{
         width: 100px;
         height: 100px;
@@ -331,7 +345,7 @@ footer{
     }
     .navegador{
         order: -1;
-        padding-top: 110px;
+        padding-top: 26px;
         margin-left: 58px;
         font-size: 13px;
 
@@ -384,9 +398,13 @@ footer{
 }
 
 @media screen and (max-width: 325px ){
+    .body__imagenRelleno2{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
    
     .bodyPadre{
-        padding-top: 115px;
+        padding-top: 50px;
         padding-bottom: 20px;
     }
     .bodyPadre2{
@@ -419,7 +437,7 @@ footer{
     }
     .navegador{
         order: -1;
-        padding-top: 110px;
+        padding-top: 26px;
         margin-left: 30px;
         font-size: 13px;
 
@@ -495,4 +513,8 @@ footer{
 }
 .menu .menu__contenedor .menu__lista:hover{
     border-color: #b28200;
+}
+
+:root{
+    --bs-body-line-height: 1.1;
 }
