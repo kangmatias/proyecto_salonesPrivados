@@ -1,0 +1,27 @@
+.body{
+    .body__imagenRelleno3{
+            transform: translate(595px);
+    }
+    .body__imagenRelleno4{
+            transform:translate(-552px) ;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1180px){
+    .bodyPadre{
+        .body{
+            .body__imagenRelleno3{
+                transform: translate(0px); 
+            }
+            .body__imagenRelleno4{
+                transform:translate(0px) ; 
+            }
+        }
+    }
+}

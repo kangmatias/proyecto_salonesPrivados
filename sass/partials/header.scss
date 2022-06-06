@@ -1,0 +1,40 @@
+header{
+    background-color: #fdefde;
+    height: 60px;
+    border: 1px solid #746230 ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center; 
+
+    .logoPrincipal{
+        border-right: 1px solid #746230 ;
+    }
+    
+    .navegador{
+        width: 1480px;
+
+        .menu{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            justify-content: space-evenly;
+            padding-top: 20px;
+
+            .menu__contenedor{
+                display: inline-block;
+
+                .menu__lista{
+                    border-bottom: 2px solid #fdefde;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+                    color: #746230
+                }
+            }
+        }
+    }
+}
+
+

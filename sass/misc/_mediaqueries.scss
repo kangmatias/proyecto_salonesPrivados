@@ -1,0 +1,319 @@
+@media screen and (max-width: 770px ){
+    .fondoContacto{
+        padding-top: 130px;
+        .fondoContacto__contenido{
+            width: 550px;
+            .fondoContacto__contacto{
+                padding-bottom: 30px;
+            }
+            form{
+                .fondoContacto__textarea{
+                    width: 545px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px ){
+    .bodyPadre{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        .body{
+            .body__imagenRelleno2{
+                padding-left:0px ;
+                padding-right: 0px;
+                width: 350px;
+            }
+            .body__imagenRelleno{
+                height: 250px;
+                width: 400px; 
+            }
+        }
+
+    }
+    .bodyPadre2{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    footer{
+        .footer{
+            .footer__seccion{
+                h3{
+                    font-size: 15px
+                }
+                p{
+                    font-size: 15px
+                }
+            }
+        }
+    }
+    .fondoContacto{
+        padding-top: 130px;
+        .fondoContacto__contenido{
+            width: 450px;
+            .fondoContacto__contacto{
+                padding-bottom: 30px;
+            }
+            form{
+                .fondoContacto__textarea{
+                    width: 435px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 480px ){
+    .bodyPadre{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        .body{
+            .body__imagenRelleno2{
+                padding-left:0px ;
+                padding-right: 0px;
+                width: 300px;
+            }
+            .body__imagenRelleno{
+                height: 250px;
+                width: 350px; 
+            }
+        }
+    }
+    .bodyPadre2{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+
+    
+    .fondoContacto{
+        padding-top: 130px;
+        .fondoContacto__contenido{
+            width: 400px;
+            .fondoContacto__contacto{
+                padding-bottom: 30px;
+            }
+            form{
+                .fondoContacto__textarea{
+                    width: 395px;
+                }
+            }
+        }
+    }
+    ol, ul {
+        padding-left: 0rem;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:425px){
+    .bodyPadre{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        .body{
+            .body__imagenRelleno2{
+                padding-left:0px ;
+                padding-right: 0px;
+                width: 250px;
+            }
+            .body__imagenRelleno{
+                height: 200px;
+                width: 300px; 
+            }
+        }
+
+    }
+    .bodyPadre2{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+
+    header{
+        flex-direction: column;
+        flex-wrap: none;
+        justify-content: center; 
+        .logoPrincipal{
+            width: 100px;
+            height: 100px;
+            border-right: none;
+            display: flex;
+            order: 1;
+            padding-top: 30px;
+            padding-left: 132px;
+        }
+        .navegador{
+            order: -1;
+            padding-top: 26px;
+            margin-left: 58px;
+            font-size: 13px;
+            .menu{
+                width: 250px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+    footer{
+        .footer{
+            .footer__seccion{
+                img{
+                    width: 80px;
+                    padding-top: 23px;
+                }
+                .footer__imagen2{
+                    width: 100px;
+                
+                }
+
+                h3{
+                    font-size: 15px
+                }
+                p{
+                    font-size: 15px
+                }
+            }
+        }
+    }
+    .contenedorPadre{
+        .contenedor{
+            .contenedor__imagen{
+                width: 280px;
+            }
+        }
+    }
+
+    .fondoContacto{
+        .fondoContacto__contenido{
+            width: 300px;
+            .fondoContacto__contacto{
+                padding-bottom: 30px;
+                text-align: center;
+            }
+            form{
+                .fondoContacto__textarea{
+                    width: 297px;
+                }
+                .fondoContacto__nombre{
+                    width: 295px;
+                }
+                .fondoContacto__email{
+                    width: 295px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 325px ){
+    .bodyPadre{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        .body{
+            .body__imagenRelleno2{
+                padding-left:0px ;
+                padding-right: 0px;
+                width: 250px;
+            }
+            .body__imagenRelleno{
+                height: 200px;
+                width: 300px; 
+            }
+        }
+
+    }
+    .bodyPadre2{
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    header{
+        flex-direction: column;
+        flex-wrap: none;
+        justify-content: center; 
+        .logoPrincipal{
+            width: 100px;
+            height: 100px;
+            border-right: none;
+            display: flex;
+            order: 1;
+            padding-top: 30px;
+            padding-left: 100px;
+        }
+        .navegador{
+            order: -1;
+            padding-top: 26px;
+            margin-left: 30px;
+            font-size: 13px;
+            .menu{
+                width: 250px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+    footer{
+        .footer{
+            .footer__seccion{
+                img{
+                    width: 80px;
+                    padding-top: 23px;
+                }
+                .footer__imagen2{
+                    width: 100px;
+                } 
+            }
+        }
+    }
+    .contenedorPadre{
+        .contenedor{
+            .contenedor__imagen{
+                width: 280px;
+            }
+        }
+    }
+    .fondoContacto{
+        .fondoContacto__contenido{
+            width: 200px;
+            .fondoContacto__contacto{
+                padding-bottom: 30px;
+                text-align: center;
+            }
+            form{
+                .fondoContacto__textarea{
+                    width: 197px;
+                }
+                .fondoContacto__nombre{
+                    width: 195px;
+                }
+                .fondoContacto__email{
+                    width: 195px;
+                }
+            }
+        }
+    }
+}

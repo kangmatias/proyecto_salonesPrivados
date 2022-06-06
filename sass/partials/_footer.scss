@@ -1,0 +1,65 @@
+
+footer{
+    background-color: rgb(253, 239, 222);
+
+    .footer{
+        height: 100px;
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 55px 55px;
+        grid-template-areas: 
+        "facebook localidad instagram"
+        "facebook none instagram";
+
+        .footer__seccion2{
+            padding-top: 20px;
+           
+        }
+    
+        .footer__seccion{
+    
+            .footer__imagen1{
+                grid-area: instagram;
+            }
+    
+            h3{
+                grid-area: localidad;
+            }
+    
+            .footer__imagen2{
+                grid-area: facebook;
+            }
+    
+            p{
+                grid-area: inform;
+            }
+    
+            img{
+                width: 150px;
+            }
+
+            .footer__imagen2{
+                width: 180px;
+            }
+
+            h3{
+                display: block;
+                font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+                color: #746230
+            }
+
+            p{
+                display: block;
+                font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+                color: #746230
+            }
+
+            .footer__imagen {
+                display: inline-block;
+            }
+        }
+    }
+}
+
