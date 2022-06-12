@@ -1,13 +1,21 @@
 .bodyPadre{
     padding-top: 180px;
     padding-bottom:80px ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @include flex(row, center);
     flex-wrap: wrap;
     background-color: rgba(253, 239, 222, 0.291);
 
     .body{
+        $fotos: (
+            primero: #fdefde,
+            segundo: #fdefde,
+        );
+        @each $foto, $color in $fotos {
+            .body__imagenRelleno--#{$foto} {
+                border: 3px solid $color;
+            }
+            
+        }
         .body__imagenRelleno{
             height: 350px; 
             width: 541.75px;

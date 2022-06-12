@@ -43,7 +43,7 @@ header .logoPrincipal{
 /*fin del header de la pagina*/
 .contenedorPadre{
     height: 650px;
-    background-image: url(../imagen/foto\ de\ inicio.jpg);
+    background-image: url(../imagen/fotodeinicio.jpg);
     background-size: cover;
     background-position: center left;
     display: flex;

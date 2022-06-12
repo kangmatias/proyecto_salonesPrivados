@@ -1,4 +1,13 @@
 @charset "UTF-8";
+:root {
+  --bs-body-line-height: 1.1; }
+
+.primary {
+  color: #746230; }
+
+.secondary {
+  color: #fdefde; }
+
 header {
   background-color: #fdefde;
   height: 60px;
@@ -20,12 +29,15 @@ header {
       padding-top: 20px; }
       header .navegador .menu .menu__contenedor {
         display: inline-block; }
-        header .navegador .menu .menu__contenedor .menu__lista {
+        header .navegador .menu .menu__contenedor .menu__lista, header .navegador .menu .menu__contenedor .menu__lista--active {
           border-bottom: 2px solid #fdefde;
           text-decoration: none;
           display: inline-block;
           font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
           color: #746230; }
+
+header .navegador .menu .menu__contenedor .menu__lista--active {
+  color: #695828; }
 
 footer {
   background-color: #fdefde; }
@@ -93,6 +105,52 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   background-color: rgba(253, 239, 222, 0.291); }
+  .bodyPadre .body .body__imagenRelleno--primero {
+    border: 3px solid #fdefde; }
+  .bodyPadre .body .body__imagenRelleno--segundo {
+    border: 3px solid #fdefde; }
+  .bodyPadre .body .body__imagenRelleno {
+    height: 350px;
+    width: 541.75px; }
+  .bodyPadre .body .body__imagenRelleno2 {
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    color: #746230; }
+
+.bodyPadre2 {
+  padding-top: 80px;
+  padding-bottom: 90px; }
+
+.contenedorPadre {
+  height: 650px;
+  background-image: url(../imagen/fotodeinicio.jpg);
+  background-size: cover;
+  background-position: center left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap; }
+  .contenedorPadre .contenedor {
+    padding-top: 270px; }
+
+.bodyPadre {
+  padding-top: 180px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  background-color: rgba(253, 239, 222, 0.291); }
+  .bodyPadre .body .body__imagenRelleno--primero {
+    border: 3px solid #fdefde; }
+  .bodyPadre .body .body__imagenRelleno--segundo {
+    border: 3px solid #fdefde; }
   .bodyPadre .body .body__imagenRelleno {
     height: 350px;
     width: 541.75px; }
@@ -118,31 +176,10 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   background-color: rgba(253, 239, 222, 0.291); }
-  .bodyPadre .body .body__imagenRelleno {
-    height: 350px;
-    width: 541.75px; }
-  .bodyPadre .body .body__imagenRelleno2 {
-    width: 500px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 30px;
-    text-align: justify;
-    font-size: 15px;
-    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
-    color: #746230; }
-
-.bodyPadre2 {
-  padding-top: 80px;
-  padding-bottom: 90px; }
-
-.bodyPadre {
-  padding-top: 180px;
-  padding-bottom: 80px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: rgba(253, 239, 222, 0.291); }
+  .bodyPadre .body .body__imagenRelleno--primero {
+    border: 3px solid #fdefde; }
+  .bodyPadre .body .body__imagenRelleno--segundo {
+    border: 3px solid #fdefde; }
   .bodyPadre .body .body__imagenRelleno {
     height: 350px;
     width: 541.75px; }
@@ -181,6 +218,10 @@ footer {
     .bodyPadre .body .body__imagenRelleno {
       height: 250px;
       width: 400px; }
+  .contenedorPadre {
+    background-image: url(../imagen/fotodeinicio.jpg);
+    background-size: cover;
+    background-position: center; }
   .bodyPadre2 {
     padding-top: 20px;
     padding-bottom: 35px; }
@@ -352,12 +393,9 @@ footer {
   .bodyPadre .body .body__imagenRelleno4 {
     transform: translate(0px); } }
 
-header .navegador .menu .menu__contenedor .menu__lista:hover {
+header .navegador .menu .menu__contenedor .menu__lista:hover, header .navegador .menu .menu__contenedor .menu__lista--active:hover {
   border-color: #b28200;
   color: #cf9700; }
 
 .footer__loc-descripcion:hover {
   color: #cf9700; }
-
-:root {
-  --bs-body-line-height: 1.1; }

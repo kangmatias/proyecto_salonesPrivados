@@ -1,14 +1,14 @@
 header{
-    background-color: #fdefde;
+    background-color:map-get($colors, secondary);
     height: 60px;
-    border: 1px solid #746230 ;
+    border: 1px solid map-get($colors, primary);
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
     justify-content: center; 
 
     .logoPrincipal{
-        border-right: 1px solid #746230 ;
+        border-right: 1px solid map-get($colors, primary);
     }
     
     .navegador{
@@ -30,7 +30,10 @@ header{
                     text-decoration: none;
                     display: inline-block;
                     font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
-                    color: #746230
+                    color: map-get($colors, primary)
+                    
+                
+                    
                 }
             }
         }
@@ -38,3 +41,7 @@ header{
 }
 
 
+header .navegador .menu .menu__contenedor .menu__lista--active{
+    @extend .menu__lista;
+    color: #695828;
+}

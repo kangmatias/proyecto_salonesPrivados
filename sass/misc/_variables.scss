@@ -1,3 +1,13 @@
 :root{
     --bs-body-line-height: 1.1;
 }
+
+$colors:(
+    primary:#746230,
+    secondary: #fdefde
+);
+@each $color, $value in $colors{
+    .#{$color} {
+        color: #{$value};
+    }
+}
