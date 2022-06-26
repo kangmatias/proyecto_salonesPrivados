@@ -1,7 +1,7 @@
 header{
     background-color:map-get($colors, secondary);
     height: 60px;
-    border: 1px solid map-get($colors, primary);
+    border-bottom: 1px solid map-get($colors, primary);
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
